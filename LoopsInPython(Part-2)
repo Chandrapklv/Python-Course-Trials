@@ -1,0 +1,5 @@
+soil = 10
+for i in range(5):
+  soil = soil - 2
+  if soil == 0:
+    print("No soil left!")
